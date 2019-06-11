@@ -1,0 +1,60 @@
+{
+  "_from": "google-geocode-parser",
+  "_id": "google-geocode-parser@1.4.5",
+  "_inBundle": false,
+  "_integrity": "sha512-ZMEcyH5ng3zBLF1NsY/BwsDAZmcb97/BdPB+52eInXtYDUm24pyh40AAAsoUs1tP3T3YSN1ePZacxfXnjetQ4Q==",
+  "_location": "/google-geocode-parser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "google-geocode-parser",
+    "name": "google-geocode-parser",
+    "escapedName": "google-geocode-parser",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/google-geocode-parser/-/google-geocode-parser-1.4.5.tgz",
+  "_shasum": "2b1b0c89199f5016ce8c1e126d9147a9b8fb04a0",
+  "_spec": "google-geocode-parser",
+  "_where": "/Volumes/DATA/Projects/ReactNative/Clane/Clane_News_CBN/claneapp",
+  "author": {
+    "name": "Daniel Seripap"
+  },
+  "bugs": {
+    "url": "https://github.com/seripap/Google-Geocode-Parser/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A helper utility to help parse geocoded addresses from Google",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "jest": "^24.7.0"
+  },
+  "homepage": "https://github.com/seripap/Google-Geocode-Parser#readme",
+  "keywords": [
+    "google",
+    "geocode",
+    "parser"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "google-geocode-parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seripap/Google-Geocode-Parser.git"
+  },
+  "scripts": {
+    "prepare": "rm -rf build && babel ./src --out-dir ./dist",
+    "test": "jest --coverage",
+    "test:dev": "jest --watchAll"
+  },
+  "version": "1.4.5"
+}
